@@ -18,11 +18,11 @@ COPY --from=build /app/target/dependency/webapp-runner.jar .
 COPY config ./config
 
 ENV PORT=8080
+ENV TOPJAVA_ROOT=/app
 EXPOSE 8080
 
 CMD java $JAVA_OPTS \
     -Dspring.profiles.active="datajpa,heroku" \
-    -DTOPJAVA_ROOT="." \
     -jar webapp-runner.jar \
     --port $PORT \
     topjava.war
