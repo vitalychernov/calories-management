@@ -15,6 +15,7 @@ WORKDIR /app
 
 COPY --from=build /app/target/topjava.war .
 COPY --from=build /app/target/dependency/webapp-runner.jar .
+COPY config ./config
 
 ENV PORT=8080
 EXPOSE 8080
