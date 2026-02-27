@@ -4,7 +4,7 @@ A full-stack Java Enterprise web application for tracking daily calorie intake. 
 
 ## Live Demo
 
-[calories-management.onrender.com](https://calories-management.onrender.com/topjava/)
+[calories-management-iixw.onrender.com](https://calories-management-iixw.onrender.com/)
 
 > **Demo credentials**
 > | Role  | Email              | Password |
